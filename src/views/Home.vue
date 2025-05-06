@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <h1>Meu Blog</h1>
+    <div class="container">
+    <h1>Bem-vindo ao Meu Blog</h1>
+    <p>Explore os últimos posts abaixo.</p>
     <PostCard v-for="post in posts" :key="post.id" :post="post" />
   </div>
 </template>

@@ -1,11 +1,12 @@
 <template>
-  <div class="mb-6 p-4 border rounded-lg shadow hover:shadow-lg transition">
-    <router-link :to="`/post/${post.slug}`">
-      <h2 class="text-xl font-semibold text-blue-600 hover:underline">
+  <div class="card">
+    <router-link :to="`/post/${post.slug}`"> 
+      <h2>
         {{ post.title }}
       </h2>
+      Leia Mais
     </router-link>
-    <p class="text-gray-700">{{ post.description }}</p>
+    <p>{{ post.description }}</p>
     <hr />
   </div>
 </template>

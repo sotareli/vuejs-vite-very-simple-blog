@@ -1,3 +1,12 @@
+<!-- Loading.vue -->
 <template>
-  <div>Carregando...</div>
+  <div class="loading">
+    Carregando...
+  </div>
 </template>
+
+<script>
+export default {
+  name: 'Loading'
+}
+</script>
